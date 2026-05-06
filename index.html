@@ -392,6 +392,239 @@
             pointer-events: none;
             z-index: 1;
         }
+
+        /* ============================================
+           MEDIA QUERY PARA COMPUTADORAS (pantallas anchas)
+           Letra más grande para desktop
+           ============================================ */
+        @media (min-width: 1024px) {
+            
+            /* Slide 1 - Portada */
+            .slide-1 h1 {
+                font-size: 7em;
+                margin-bottom: 30px;
+            }
+
+            .slide-1 .subtitle {
+                font-size: 2.5em;
+            }
+
+            /* Slide 2 - Índice */
+            .slide-2 h2 {
+                font-size: 5em;
+                margin-bottom: 60px;
+            }
+
+            .slide-2 ol {
+                font-size: 2.5em;
+                line-height: 2.2;
+            }
+
+            /* Slide 3 y 4 - Contexto */
+            .slide-context h2 {
+                font-size: 4em;
+                margin-bottom: 50px;
+            }
+
+            .slide-context p {
+                font-size: 2.2em;
+                line-height: 1.8;
+                max-width: 1200px;
+                margin-bottom: 30px;
+            }
+
+            .slide-context .author-tag {
+                font-size: 1.8em;
+                margin-top: 30px;
+            }
+
+            .scroll-image {
+                width: 450px;
+                margin: 30px auto;
+            }
+
+            /* Slide 5 - Características */
+            .slide-5 h2 {
+                font-size: 4em;
+                margin-bottom: 50px;
+            }
+
+            .features-grid {
+                gap: 60px;
+                max-width: 1400px;
+            }
+
+            .feature-box {
+                padding: 40px;
+            }
+
+            .feature-box h3 {
+                font-size: 2.2em;
+                margin-bottom: 25px;
+            }
+
+            .feature-box p {
+                font-size: 1.8em;
+                line-height: 1.6;
+            }
+
+            .author-label {
+                font-size: 1.5em;
+                margin-top: 25px;
+            }
+
+            /* Slide 6 - Lenguaje */
+            .slide-6 h2 {
+                font-size: 4em;
+                margin-bottom: 50px;
+            }
+
+            .slide-6 p {
+                font-size: 2.2em;
+                line-height: 1.8;
+                max-width: 1000px;
+            }
+
+            /* Slide 7 - Autores */
+            .slide-7 h2 {
+                font-size: 4em;
+                margin-bottom: 50px;
+            }
+
+            .authors-container {
+                gap: 100px;
+            }
+
+            .author-card {
+                max-width: 450px;
+                padding: 35px;
+            }
+
+            .author-card img {
+                width: 380px;
+                height: 450px;
+                margin-bottom: 30px;
+            }
+
+            .author-card h3 {
+                font-size: 2.5em;
+                margin-bottom: 25px;
+            }
+
+            .author-card p {
+                font-size: 1.8em;
+                line-height: 1.6;
+            }
+
+            /* Slide 8 - Obras claves */
+            .slide-8 h2 {
+                font-size: 4em;
+                margin-bottom: 50px;
+            }
+
+            .slide-8 p {
+                font-size: 2.2em;
+                line-height: 1.8;
+                max-width: 1000px;
+            }
+
+            .author-name {
+                font-size: 2em;
+                margin-bottom: 30px;
+            }
+
+            /* Slide 9 - Cándido */
+            .slide-9 h2 {
+                font-size: 4em;
+                margin-bottom: 40px;
+            }
+
+            .slide-9 .author-name {
+                font-size: 2em;
+            }
+
+            .slide-9 p {
+                font-size: 2em;
+                line-height: 1.8;
+                max-width: 1200px;
+                padding: 25px;
+                margin-bottom: 20px;
+            }
+
+            /* Slide 10 - Ejemplo */
+            .slide-10 h2 {
+                font-size: 4em;
+                margin-bottom: 50px;
+            }
+
+            .quote-box {
+                padding-left: 50px;
+                margin-bottom: 50px;
+                max-width: 1100px;
+                padding: 40px;
+            }
+
+            .quote-box blockquote {
+                font-size: 2.5em;
+                margin-bottom: 20px;
+            }
+
+            .quote-box cite {
+                font-size: 1.8em;
+            }
+
+            .slide-10 p {
+                font-size: 2em;
+                line-height: 1.8;
+                max-width: 1200px;
+                margin-bottom: 30px;
+            }
+
+            .question {
+                font-size: 2.2em;
+                margin-top: 30px;
+            }
+
+            /* Slide 11 - Conclusión */
+            .slide-11 .book-image {
+                width: 600px;
+                margin-bottom: 50px;
+            }
+
+            .slide-11 h2 {
+                font-size: 4em;
+                margin-bottom: 50px;
+            }
+
+            .slide-11 p {
+                font-size: 2.2em;
+                line-height: 1.8;
+                max-width: 1000px;
+                padding: 30px;
+            }
+
+            /* Slide 12 - Gracias */
+            .slide-12 h1 {
+                font-size: 8em;
+                margin-bottom: 50px;
+            }
+
+            .slide-12 a {
+                font-size: 2em;
+            }
+
+            /* Decoraciones vintage esquinas - más grandes */
+            .corner-decoration {
+                width: 100px;
+                height: 100px;
+                border: 6px solid #8b6914;
+            }
+
+            .corner-tl { top: 50px; left: 50px; }
+            .corner-tr { top: 50px; right: 50px; }
+            .corner-bl { bottom: 50px; left: 50px; }
+            .corner-br { bottom: 50px; right: 50px; }
+        }
     </style>
 </head>
 <body>
@@ -465,109 +698,4 @@
                 <p>Se defiende la tolerancia religiosa y el espíritu crítico frente a los dogmas</p>
                 <p class="author-label">Díaz</p>
             </div>
-            <div class="feature-box">
-                <h3>El predominio de la razón sobre la fe</h3>
-                <p>La búsqueda de la felicidad humana a través del conocimiento y el progreso científico</p>
-                <p class="author-label">Díaz</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Slide 6: Lenguaje y recursos literarios -->
-    <div class="slide slide-6">
-        <div class="vintage-overlay"></div>
-        <div class="corner-decoration corner-tl"></div>
-        <div class="corner-decoration corner-tr"></div>
-        <div class="corner-decoration corner-bl"></div>
-        <div class="corner-decoration corner-br"></div>
-        <h2>Características Lenguaje y recursos literarios</h2>
-        <p>Claridad, orden y sencillez. Predominan el ensayo, la fábula (para dejar una moraleja) y la sátira (para criticar a la sociedad).</p>
-        <p class="author-label">Díaz</p>
-    </div>
-
-    <!-- Slide 7: Autores -->
-    <div class="slide slide-7">
-        <div class="vintage-overlay"></div>
-        <div class="corner-decoration corner-tl"></div>
-        <div class="corner-decoration corner-tr"></div>
-        <div class="corner-decoration corner-bl"></div>
-        <div class="corner-decoration corner-br"></div>
-        <h2>Autores</h2>
-        <div class="authors-container">
-            <div class="author-card">
-                <h3>Voltaire</h3>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Nicolas_de_Largilli%C3%A8re%2C_Fran%C3%A7ois-Marie_Arouet_dit_Voltaire_%28vers_1724-1725%29-001.jpg" alt="Retrato de Voltaire">
-                <p>Famoso por su ingenio y su defensa de las libertades civiles y la separación de la Iglesia y el Estado.</p>
-            </div>
-            <div class="author-card">
-                <h3>Jean-Jacques Rousseau</h3>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Jean-Jacques_Rousseau_%28painted_portrait%29.jpg" alt="Retrato de Rousseau">
-                <p>Sus ideas sobre la educación y la política (el contrato social) fueron fundamentales para las democracias modernas.</p>
-            </div>
-        </div>
-        <p class="author-name">Sebastián</p>
-    </div>
-
-    <!-- Slide 8: Obras claves -->
-    <div class="slide slide-8">
-        <div class="vintage-overlay"></div>
-        <div class="corner-decoration corner-tl"></div>
-        <div class="corner-decoration corner-tr"></div>
-        <div class="corner-decoration corner-bl"></div>
-        <div class="corner-decoration corner-br"></div>
-        <h2>Obras claves</h2>
-        <p class="author-name">Sebastián</p>
-        <p><strong>Títulos:</strong> Cándido (Voltaire), El contrato social (Rousseau), La Enciclopedia (Diderot y D'Alembert).</p>
-    </div>
-
-    <!-- Slide 9: Cándido -->
-    <div class="slide slide-9">
-        <div class="vintage-overlay"></div>
-        <div class="corner-decoration corner-tl"></div>
-        <div class="corner-decoration corner-tr"></div>
-        <div class="corner-decoration corner-bl"></div>
-        <div class="corner-decoration corner-br"></div>
-        <h2>Obras claves Cándido: Sebastián</h2>
-        <p>La historia narra las aventuras de Cándido, un joven que vive en un paraíso idílico en Westfalia. Su tutor, el Dr. Pangloss, le enseña que "todo sucede para bien" y que vivimos en "el mejor de los mundos posibles".</p>
-        <p>Sin embargo, tras ser expulsado de su hogar, Cándido recorre el mundo y se enfrenta a una lista interminable de horrores: guerras, terremotos, enfermedades, torturas de la Inquisición y pobreza. A lo largo del viaje, su optimismo choca una y otra vez con una realidad violenta y absurda.</p>
-    </div>
-
-    <!-- Slide 10: Ejemplo -->
-    <div class="slide slide-10">
-        <div class="vintage-overlay"></div>
-        <div class="corner-decoration corner-tl"></div>
-        <div class="corner-decoration corner-tr"></div>
-        <div class="corner-decoration corner-bl"></div>
-        <div class="corner-decoration corner-br"></div>
-        <h2>Ejemplo</h2>
-        <p class="author-name">Alejandro</p>
-        <div class="quote-box">
-            <blockquote>"El hombre nace libre, pero en todas partes se encuentra encadenado."</blockquote>
-            <cite>— El contrato social, Rousseau.</cite>
-        </div>
-        <p>Este fragmento encapsula la visión política y social de la Ilustración. Cuestiona el orden establecido y utiliza la lógica para denunciar que las estructuras de poder de su tiempo limitaban la libertad natural del ser humano, impulsando la idea de que la sociedad debe basarse en leyes racionales y justas.</p>
-        <p class="question">¿Por qué es un ejemplo?</p>
-    </div>
-
-    <!-- Slide 11: Conclusión -->
-    <div class="slide slide-11">
-        <div class="vintage-overlay"></div>
-        <div class="corner-decoration corner-tl"></div>
-        <div class="corner-decoration corner-tr"></div>
-        <div class="corner-decoration corner-bl"></div>
-        <div class="corner-decoration corner-br"></div>
-        <p class="author-name">Díaz</p>
-        <img src="https://www.shutterstock.com/image-vector/art-old-paper-scrapbook-background-260nw-752938171.jpg" alt="Libros antiguos con lupa" class="book-image">
-        <h2>Conclusión</h2>
-        <p>En conclusión la ilustración transformó la manera de pensar y sentó bases en las democracias actuales.</p>
-    </div>
-
-    <!-- Slide 12: Gracias -->
-    <div class="slide slide-12">
-        <div class="vintage-overlay"></div>
-        <div class="corner-decoration corner-tl"></div>
-        <div class="corner-decoration corner-tr"></div>
-        <div class="corner-decoration corner-bl"></div>
-        <div class="corner-decoration corner-br"></div>
-        <h1>¡Gracias!</h1>
-        <a href
+            <div class=
